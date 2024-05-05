@@ -2,18 +2,20 @@
 
 struct Bank_management_system
 {
-    int account_number;
+    int accountNumber;
     char name[20];
     int balance;
     int deposit;
+    char gender;
     int withdraw;
-    int total_balance;
+    int totalBalance;
 };
 
 int main()
 {
     struct Bank_management_system sbi;
     int choice;
+    int totalAcc = 0;
     while (1)
     {
         printf("x=====================Welcome to Sbi bank account===================x\n");
@@ -27,7 +29,11 @@ int main()
         switch (choice)
         {
         case 1:
-        
+            createAccount(name,gender,deposit,accountNumber);
+            
+        case 5:
+            exit(0);
+
     }
     
 
