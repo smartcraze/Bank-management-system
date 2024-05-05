@@ -16,7 +16,8 @@ struct Bank_management_system sbi;
 while (1)
 {
     printf("x=====================Welcome to Sbi bank account===================x\n");
-    printf("1.")
+    printf("1.create account ")
+    
 }
 
 
