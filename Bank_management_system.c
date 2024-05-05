@@ -11,11 +11,14 @@ int main()
         int withdraw;
         int total_balance;
     };
+struct Bank_management_system sbi;
 
-    int n;
-    printf("Enter the ")
-    scanf("%d", &n);
-    
+while (1)
+{
+    printf("x=====================Welcome to Sbi bank account===================x\n");
+    printf("1.")
+}
+
 
 
     return 0;
