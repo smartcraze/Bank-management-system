@@ -23,13 +23,12 @@ int main()
         printf("4. Check Balance\n");
         printf("5. Exit\n");
         printf("Enter the Number which you require");
-        scanf("%d",&choice);
+        scanf("%d", &choice);
         switch (choice)
         {
         case 1:
-        
-    }
-    
+        }
 
-    return 0;
+        return 0;
+    }
 }
